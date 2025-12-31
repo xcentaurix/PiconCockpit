@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PiconCockpit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-31 14:53+0100\n"
+"PO-Revision-Date: 2022-12-31 14:54+0100\n"
+"Last-Translator: xcentaurix\n"
+"Language-Team: German (Germany)\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 47158\n"
+"X-Loco-Api-Version: 1.0.19 20180501-1\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Select function"
+msgstr ""
+
+msgid "Picon Download"
+msgstr ""
+
+msgid "Setup"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "COCKPIT"
+msgstr ""
+
+msgid "Picon directory"
+msgstr ""
+
+msgid "Select the directory the picons are stored in."
+msgstr ""
+
+msgid "Picon server"
+msgstr ""
+
+msgid "Select the picon server."
+msgstr ""
+
+msgid "Download all picons"
+msgstr ""
+
+msgid "Should all picons be downloaded vs. just the picons in favorites?"
+msgstr ""
+
+msgid "Delete picon directory"
+msgstr ""
+
+msgid "Should the picon directory be cleaned before the download?"
+msgstr ""
+
+msgid "FILTER"
+msgstr ""
+
+msgid "Satellite"
+msgstr ""
+
+msgid "Select the satellite."
+msgstr ""
+
+msgid "Creator"
+msgstr ""
+
+msgid "Select the creator."
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Select the picon size."
+msgstr ""
+
+msgid "Color depth"
+msgstr ""
+
+msgid "Select the color depth."
+msgstr ""
+
+msgid "DEBUG"
+msgstr ""
+
+msgid "Log level"
+msgstr ""
+
+msgid "Select the debug log level."
+msgstr ""
+
+msgid "PiconCockpit"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Picon server access failed"
+msgstr ""
+
+msgid "Please wait"
+msgstr ""
+
+msgid "Initializing"
+msgstr ""
+
+msgid "Manage Picons"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Defaults"
+msgstr ""
+
+msgid "Really close without saving settings?"
+msgstr ""
+
+msgid "Loading default settings will overwrite all settings, really load them?"
+msgstr ""
+
+msgid "Some changes require a GUI restart"
+msgstr ""
+
+msgid "Restart GUI now?"
+msgstr ""
+
+msgid "Bookmarks"
+msgstr ""
+
+msgid "Select directory"
+msgstr ""
+
+msgid "Path does not exist"
+msgstr ""
+
+msgid "Cancelling, please wait"
+msgstr ""
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Processing"
+msgstr ""
+
+msgid "of"
+msgstr ""

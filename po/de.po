@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PiconCockpit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-31 14:53+0100\n"
+"PO-Revision-Date: 2022-12-31 14:54+0100\n"
+"Last-Translator: xcentaurix\n"
+"Language-Team: German (Germany)\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 47158\n"
+"X-Loco-Api-Version: 1.0.19 20180501-1\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Select function"
+msgstr "Funktionen"
+
+msgid "Picon Download"
+msgstr "Picon Download"
+
+msgid "Setup"
+msgstr "Einstellungen"
+
+msgid "About"
+msgstr "Über"
+
+msgid "COCKPIT"
+msgstr "COCKPIT"
+
+msgid "Picon directory"
+msgstr "Picon-Verzeichnis"
+
+msgid "Select the directory the picons are stored in."
+msgstr "Auswahl des Verzeichnisses, in dem die Picons gespeichert sind"
+
+msgid "Picon server"
+msgstr "Picon-Server"
+
+msgid "Select the picon server."
+msgstr "Welcher Picon-Server soll verwendet werden?"
+
+msgid "Download all picons"
+msgstr "Lade alle Picons eines Sets"
+
+msgid "Should all picons be downloaded vs. just the picons in favorites?"
+msgstr ""
+"Sollen alle Picons des Pakets oder nur die Picons der Favoriten-Sender "
+"heruntergeladen werden?"
+
+msgid "Delete picon directory"
+msgstr "Lösche Picons im Picon-Verzeichnis"
+
+msgid "Should the picon directory be cleaned before the download?"
+msgstr "Sollen alle Picons vor dem Herunterladen gelöscht werden?"
+
+msgid "FILTER"
+msgstr "FILTER"
+
+msgid "Satellite"
+msgstr "Satellit/Provider"
+
+msgid "Select the satellite."
+msgstr "Welcher Satellit/Provider soll für den Filter verwendet werden?"
+
+msgid "Creator"
+msgstr "Ersteller"
+
+msgid "Select the creator."
+msgstr "Welcher Picon-Ersteller soll für den Filter verwendet werden?"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "Select the picon size."
+msgstr "Welche Picon-Größe soll für den Filter verwendet werden?"
+
+msgid "Color depth"
+msgstr "Farbtiefe"
+
+msgid "Select the color depth."
+msgstr "Welche Picon-Farbtiefe soll für den Filter verwendet werden?"
+
+msgid "DEBUG"
+msgstr "DEBUG"
+
+msgid "Log level"
+msgstr "Log Stufe"
+
+msgid "Select the debug log level."
+msgstr "Auswahl der Log Stufe"
+
+msgid "PiconCockpit"
+msgstr "PiconCockpit"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Exit"
+msgstr "Beenden"
+
+msgid "Picon server access failed"
+msgstr "Fehler beim Zugriff auf den Picon-Server"
+
+msgid "Please wait"
+msgstr "Bitte warten"
+
+msgid "Initializing"
+msgstr "Initialisiere"
+
+msgid "Manage Picons"
+msgstr "Picon Verwaltung"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Defaults"
+msgstr "Standard"
+
+msgid "Really close without saving settings?"
+msgstr "Fortfahren ohne Speichern der Einstellungen?"
+
+msgid "Loading default settings will overwrite all settings, really load them?"
+msgstr ""
+"Das Laden der Standardeinstellungen überschreibt alle aktuellen "
+"Einstellungen.\n"
+"Sollen die Standardeinstellungen wirklich geladen werden?"
+
+msgid "Some changes require a GUI restart"
+msgstr "Einige Änderungen erfordern einen Neustart der GUI"
+
+msgid "Restart GUI now?"
+msgstr "Soll die GUI jetzt neu gestartet werden?"
+
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+msgid "Select directory"
+msgstr "Verzeichnis-Auswahl"
+
+msgid "Path does not exist"
+msgstr "Verzeichnis existiert nicht"
+
+msgid "Cancelling, please wait"
+msgstr "Breche ab, bitte warten"
+
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+msgid "Done"
+msgstr "Fertig"
+
+msgid "Close"
+msgstr "Schliessen"
+
+msgid "Hide"
+msgstr "Ausblenden"
+
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+msgid "of"
+msgstr "von"

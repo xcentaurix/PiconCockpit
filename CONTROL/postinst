@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "***********************************"
+echo "*          PiconCockpit           *"
+echo "*               by                *"
+echo "*          xcentaurix             *"
+echo "***********************************"
+echo ""
+echo "Plugin PiconCockpit installed successfully."
+echo "Please restart Enigma2 now!"
+echo ""
+exit 0

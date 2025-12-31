@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PiconCockpit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-04 21:51+0200\n"
+"PO-Revision-Date: 2023-06-04 22:13+0200\n"
+"Last-Translator: Dario Croci <spaeleus@croci.org>\n"
+"Language-Team: Dario Croci <spaeleus@croci.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 47158\n"
+"X-Loco-Api-Version: 1.0.19 20180501-1\n"
+"X-Poedit-Basepath: ../../../../../../../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Version"
+msgstr "Versione"
+
+msgid "Copyright"
+msgstr "Copyright"
+
+msgid "License"
+msgstr "Licenza"
+
+msgid "Select function"
+msgstr "Selezionare funzione"
+
+msgid "Picon Download"
+msgstr "Download picon"
+
+msgid "Setup"
+msgstr "Impostazioni"
+
+msgid "About"
+msgstr "Info"
+
+msgid "Cancel"
+msgstr "Annullare"
+
+msgid "Save"
+msgstr "Salvare"
+
+msgid "Defaults"
+msgstr "Default"
+
+msgid "Really close without saving settings?"
+msgstr "Chiudere senza salvare le impostazioni?"
+
+msgid "Loading default settings will overwrite all settings, really load them?"
+msgstr "Le impostazioni predefinite sovrascriveranno quelle presenti. Eseguire?"
+
+msgid "Some changes require a GUI restart"
+msgstr "Alcune modifiche richiedono il riavvio della GUI"
+
+msgid "Restart GUI now?"
+msgstr "Riavviare la GUI ora?"
+
+msgid "Bookmarks"
+msgstr "Segnalibri"
+
+msgid "Select directory"
+msgstr "Selezionare directory"
+
+msgid "Path does not exist"
+msgstr "Percorso non presente"
+
+msgid "COCKPIT"
+msgstr "COCKPIT"
+
+msgid "Picon directory"
+msgstr "Directory picon"
+
+msgid "Select the directory the picons are stored in."
+msgstr "Selezionare la directory contenente i picon."
+
+msgid "Picon server"
+msgstr "Server picon"
+
+msgid "Select the picon server."
+msgstr "Selezionare server picon."
+
+msgid "Download all picons"
+msgstr "Scaricare tutti i picon"
+
+msgid "Should all picons be downloaded vs. just the picons in favorites?"
+msgstr "Scaricare tutti i picon o solo quelli nei preferiti?"
+
+msgid "Delete picon directory"
+msgstr "Rimuovere directory picon"
+
+msgid "Should the picon directory be cleaned before the download?"
+msgstr "Ripulire la directory picon prima del download?"
+
+msgid "FILTER"
+msgstr "FILTRO"
+
+msgid "Satellite"
+msgstr "Satellite"
+
+msgid "Select the satellite."
+msgstr "Selezionare satellite."
+
+msgid "Creator"
+msgstr "Autore"
+
+msgid "Select the creator."
+msgstr "Selezionare l'autore."
+
+msgid "Size"
+msgstr "Dimensioni"
+
+msgid "Select the picon size."
+msgstr "Selezionare dimensioni picon."
+
+msgid "Color depth"
+msgstr "Profondità colore"
+
+msgid "Select the color depth."
+msgstr "Selezionare profondità colore."
+
+msgid "DEBUG"
+msgstr "DEBUG"
+
+msgid "Log level"
+msgstr "Livello log"
+
+msgid "Select the debug log level."
+msgstr "Selezionare livello log di debug."
+
+msgid "Close"
+msgstr "Chiudere"
+
+msgid "Hide"
+msgstr "Nascondere"
+
+msgid "Cancelling, please wait"
+msgstr "Attendere, rimozione..."
+
+msgid "Processing"
+msgstr "Elaborazione..."
+
+msgid "of"
+msgstr "di"
+
+msgid "Done"
+msgstr "Fatto"
+
+msgid "Cancelled"
+msgstr "Rimosso"
+
+msgid "Please wait"
+msgstr "Attendere"
+
+msgid "PiconCockpit"
+msgstr "PiconCockpit"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Exit"
+msgstr "Uscire"
+
+msgid "Picon server access failed"
+msgstr "Accesso al server picon fallito"
+
+msgid "Initializing"
+msgstr "Inizializzazione..."
+
+msgid "Manage Picons"
+msgstr "Gestire picon"

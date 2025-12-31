@@ -1,0 +1,10 @@
+<screen name="PiconCockpit" position="fill" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="Screen_1_1" />
+    <panel position="120,130" size="1690,900">
+        <widget name="preview" position="e-400,0" scale="1" size="400,240"/>
+        <widget source="list" render="Listbox" position="0,0" scrollbarMode="showOnDemand" size="e-420,e-100" 
+                font="Regular;24" itemHeight="40" itemCornerRadius="6" transparent="1">
+            <convert type="StringList" />
+        </widget>
+    </panel>
+</screen>

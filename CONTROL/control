@@ -1,0 +1,6 @@
+Description: PiconCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-piconcockpit
+Version: .
+Architecture: all
+Depends: enigma2-plugin-skincomponents-e2darkosaddon

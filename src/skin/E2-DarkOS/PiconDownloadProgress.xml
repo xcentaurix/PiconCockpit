@@ -1,0 +1,9 @@
+<screen name="PiconDownloadProgress" position="fill" flags="wfNoBorder" backgroundColor="transparent">
+    <panel position="center, center" size="1180,200">
+        <panel name="Progress_1" />
+		<widget font="Regular;24" halign="left" name="operation" position="10,10" size="e-20,43" transparent="1" valign="center"/>
+		<widget name="slider1" position="10,60" size="e-20,24"/>
+		<widget font="Regular;24" halign="left" name="name" position="10,90" size="e-20,43" transparent="1" valign="center"/>
+		<widget font="Regular;24" halign="left" name="status" position="10,130" size="e-20,43" transparent="1" valign="center"/>
+    </panel>
+</screen>
