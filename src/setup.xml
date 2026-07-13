@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress XmlUnboundNsPrefix -->
+<setupxml>
+	<setup key="piconcockpit" title="Setup">
+		<item text="Picon directory" description="Select the directory the picons are stored in.">config.plugins.piconcockpit.picon_directory</item>
+		<item text="Picon server" description="Select the picon server.">config.plugins.piconcockpit.picon_server</item>
+		<item text="Download all picons" description="Should all picons be downloaded vs. just the picons in favorites?">config.plugins.piconcockpit.all_picons</item>
+		<item text="Delete picon directory" description="Should the picon directory be cleaned before the download?">config.plugins.piconcockpit.delete_before_download</item>
+		<item text="Satellite" description="Select the satellite.">config.plugins.piconcockpit.satellite</item>
+		<item text="Creator" description="Select the creator.">config.plugins.piconcockpit.creator</item>
+		<item text="Size" description="Select the picon size.">config.plugins.piconcockpit.size</item>
+		<item text="Color depth" description="Select the color depth.">config.plugins.piconcockpit.bit</item>
+		<item level="2" text="Log level" description="Select the debug log level.">config.plugins.piconcockpit.debug_log_level</item>
+	</setup>
+</setupxml>

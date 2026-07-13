@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<skin>
+	<screen backgroundColor="black" flags="wfNoBorder" name="PiconCockpit" position="center,center" size="1920,1080">
+		<panel name="TopTemplate"/>
+		<widget alphatest="blend" backgroundColor="black" name="preview" position="e-30-400,120" scale="1" size="400,240" transparent="0" zPosition="2"/>
+		<widget font="Regular;26" itemHeight="35" position="30,120" render="Listbox" scrollbarMode="showOnDemand" size="e-60-30-400,e-120-80" source="list" valign="center">
+			<convert type="StringList"/>
+		</widget>
+		<ePixmap pixmap="border/smallshadowline.png" position="0,e-60" size="e,3"/>
+		<panel name="ButtonTemplate"/>
+	</screen>
+	<screen backgroundColor="black" flags="wfNoBorder" name="PiconDownloadProgress" position="center,center" size="1200,320">
+		<eLabel backgroundColor="toptemplatecolor" position="0,0" size="1200,75" zPosition="0"/>
+		<widget font="Bold;36" position="20,16" render="Label" size="1160,44" source="Title" transparent="1" valign="center" zPosition="1"/>
+		<ePixmap pixmap="border/smallshadowline.png" position="0,70" size="e,3"/>
+		<widget font="Regular;30" halign="left" name="operation" position="20,80" size="1160,40" transparent="1" valign="center"/>
+		<widget name="slider1" position="20,130" size="1160,20"/>
+		<widget font="Regular;30" halign="left" name="name" position="20,160" size="1160,40" transparent="1" valign="center"/>
+		<widget font="Regular;30" halign="left" name="status" position="20,210" size="1160,40" transparent="1" valign="center"/>
+		<ePixmap pixmap="border/smallshadowline.png" position="0,e-60" size="e,3"/>
+		<panel name="ButtonTemplate"/>
+	</screen>
+</skin>
