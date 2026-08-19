@@ -3,7 +3,7 @@
 
 
 from Components.config import config, ConfigText, ConfigYesNo, ConfigSelection, ConfigSubsection, ConfigNothing, NoSave
-from .Debug import logger, log_levels, initLogging
+from .Debug import logger
 
 
 server_choices = [
@@ -34,10 +34,6 @@ class ConfigInit():
         config.plugins.piconcockpit.last_picon_set = ConfigText(
             default="", fixed_size=False, visible_width=20)
 
-        # Debug settings
-        config.plugins.piconcockpit.debug_log_level = ConfigSelection(
-            default="INFO", choices=list(log_levels.keys()))
-
         # Filter choice lists storage (persistent) - must exist before the
         # selections below so their choices can be rebuilt from cache
         # immediately, instead of starting narrow and widening afterwards.
@@ -53,7 +49,6 @@ class ConfigInit():
         config.plugins.piconcockpit.creator = ConfigSelection(default="all", choices=self._cachedChoices('cached_creators', select_all))
         config.plugins.piconcockpit.satellite = ConfigSelection(default="all", choices=self._cachedChoices('cached_satellites', select_all))
 
-        initLogging()
         logger.debug("Configuration initialized")
 
     def _cachedChoices(self, cache_attr, default_choices):

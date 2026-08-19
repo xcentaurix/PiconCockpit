@@ -2,7 +2,10 @@
 # License: GNU General Public License v3.0
 
 from Plugins.Plugin import PluginDescriptor
-from skin import addOnLoadCallback
+try:
+    from skin import addOnLoadCallback  # OpenViX
+except ImportError:
+    from skin import addCallback as addOnLoadCallback  # openATV - same mechanism, different name
 from .Version import VERSION
 from .Debug import logger
 from .__init__ import _
