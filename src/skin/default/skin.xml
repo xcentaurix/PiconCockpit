@@ -8,39 +8,42 @@
 		<color name="keyGreen" value="#3c9f2a"/>
 		<color name="keyYellow" value="#e0c31e"/>
 		<color name="keyBlue" value="#1e4ab5"/>
+		<color name="progressBG" value="#282828"/>
+		<color name="secondBG" value="#202020"/>
+		<color name="sliderBG" value="#303030"/>
 	</colors>
-	<screen backgroundColor="#1a1a1a" flags="wfNoBorder" name="PiconCockpit" position="center,center" resolution="1920,1080" size="1280,720">
-		<eLabel backgroundColor="#101010" position="0,0" size="e,55"/>
-		<widget font="Bold;28" position="10,10" render="Label" size="e-20,35" source="Title" transparent="1" valign="center" zPosition="1"/>
-		<eLabel backgroundColor="#404040" position="0,54" size="e,2"/>
+	<screen backgroundColor="panelBG" flags="wfNoBorder" name="PiconCockpit" position="center,center" resolution="1920,1080" size="1280,720">
+		<eLabel backgroundColor="barBG" position="0,0" size="e,55"/>
+		<widget font="Bold;38" position="10,0" render="Label" size="e-20,55" source="Title" transparent="1" valign="center" zPosition="1"/>
+		<eLabel backgroundColor="separator" position="0,54" size="e,2"/>
 		<widget alphatest="blend" name="preview" position="e-20-280,65" scale="1" size="280,168" zPosition="2"/>
-		<widget font="Regular;22" itemHeight="30" position="20,65" render="Listbox" scrollbarMode="showOnDemand" size="e-340,e-140" source="list" valign="center">
+		<widget font="Regular;20" itemHeight="30" position="20,65" render="Listbox" scrollbarMode="showOnDemand" size="e-340,570" source="list" valign="center">
 			<convert type="StringList"/>
 		</widget>
-		<eLabel backgroundColor="#404040" position="0,e-62" size="e,2"/>
-		<eLabel backgroundColor="#101010" position="0,e-60" size="e,60"/>
-		<widget conditional="key_red" font="Regular;20" foregroundColor="#e0331e" halign="center" name="key_red" position="0,672" size="275,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_green" font="Regular;20" foregroundColor="#3c9f2a" halign="center" name="key_green" position="275,672" size="275,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_yellow" font="Regular;20" foregroundColor="#e0c31e" halign="center" name="key_yellow" position="550,672" size="275,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_blue" font="Regular;20" foregroundColor="#1e4ab5" halign="center" name="key_blue" position="825,672" size="275,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_menu" font="Regular;20" foregroundColor="#ffffff" halign="center" name="key_menu" position="1100,672" size="90,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_info" font="Regular;20" foregroundColor="#ffffff" halign="center" name="key_info" position="1190,672" size="90,38" transparent="1" zPosition="2"/>
+		<eLabel backgroundColor="separator" position="0,e-56" size="e,2"/>
+		<eLabel backgroundColor="barBG" position="0,e-55" size="e,55"/>
+		<widget conditional="key_red" font="Regular;32" foregroundColor="keyRed" halign="center" name="key_red" position="0,672" size="275,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_green" font="Regular;32" foregroundColor="keyGreen" halign="center" name="key_green" position="275,672" size="275,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_yellow" font="Regular;32" foregroundColor="keyYellow" halign="center" name="key_yellow" position="550,672" size="275,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_blue" font="Regular;32" foregroundColor="keyBlue" halign="center" name="key_blue" position="825,672" size="275,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_menu" font="Regular;32" foregroundColor="white" halign="center" name="key_menu" position="1100,672" size="90,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_info" font="Regular;32" foregroundColor="white" halign="center" name="key_info" position="1190,672" size="90,38" transparent="1" valign="center" zPosition="2"/>
 	</screen>
-	<screen backgroundColor="#1a1a1a" flags="wfNoBorder" name="PiconDownloadProgress" position="center,center" resolution="1920,1080" size="900,330">
-		<eLabel backgroundColor="#101010" position="0,0" size="e,55"/>
-		<widget font="Bold;26" position="10,10" render="Label" size="e-20,35" source="Title" transparent="1" valign="center" zPosition="1"/>
-		<eLabel backgroundColor="#404040" position="0,54" size="e,2"/>
-		<widget font="Regular;22" halign="left" name="operation" position="10,65" size="e-20,35" transparent="1" valign="center"/>
-		<widget name="slider1" position="10,108" size="e-20,20"/>
-		<widget font="Regular;22" halign="left" name="name" position="10,136" size="e-20,35" transparent="1" valign="center"/>
-		<widget font="Regular;22" halign="left" name="status" position="10,179" size="e-20,35" transparent="1" valign="center"/>
-		<eLabel backgroundColor="#404040" position="0,e-62" size="e,2"/>
-		<eLabel backgroundColor="#101010" position="0,e-60" size="e,60"/>
-		<widget conditional="key_red" font="Regular;20" foregroundColor="#e0331e" halign="center" name="key_red" position="0,282" size="180,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_green" font="Regular;20" foregroundColor="#3c9f2a" halign="center" name="key_green" position="180,282" size="180,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_yellow" font="Regular;20" foregroundColor="#e0c31e" halign="center" name="key_yellow" position="360,282" size="180,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_blue" font="Regular;20" foregroundColor="#1e4ab5" halign="center" name="key_blue" position="540,282" size="180,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_menu" font="Regular;20" foregroundColor="#ffffff" halign="center" name="key_menu" position="720,282" size="90,38" transparent="1" zPosition="2"/>
-		<widget conditional="key_info" font="Regular;20" foregroundColor="#ffffff" halign="center" name="key_info" position="810,282" size="90,38" transparent="1" zPosition="2"/>
+	<screen backgroundColor="panelBG" flags="wfNoBorder" name="PiconDownloadProgress" position="center,center" resolution="1920,1080" size="900,330">
+		<eLabel backgroundColor="barBG" position="0,0" size="e,55"/>
+		<widget font="Bold;38" position="10,0" render="Label" size="e-20,55" source="Title" transparent="1" valign="center" zPosition="1"/>
+		<eLabel backgroundColor="separator" position="0,54" size="e,2"/>
+		<widget font="Regular;32" halign="left" name="operation" position="10,65" size="e-20,40" transparent="1" valign="center"/>
+		<widget name="slider1" position="10,120" size="e-20,20"/>
+		<widget font="Regular;32" halign="left" name="name" position="10,155" size="e-20,40" transparent="1" valign="center"/>
+		<widget font="Regular;32" halign="left" name="status" position="10,210" size="e-20,40" transparent="1" valign="center"/>
+		<eLabel backgroundColor="separator" position="0,e-56" size="e,2"/>
+		<eLabel backgroundColor="barBG" position="0,e-55" size="e,55"/>
+		<widget conditional="key_red" font="Regular;32" foregroundColor="keyRed" halign="center" name="key_red" position="0,282" size="180,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_green" font="Regular;32" foregroundColor="keyGreen" halign="center" name="key_green" position="180,282" size="180,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_yellow" font="Regular;32" foregroundColor="keyYellow" halign="center" name="key_yellow" position="360,282" size="180,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_blue" font="Regular;32" foregroundColor="keyBlue" halign="center" name="key_blue" position="540,282" size="180,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_menu" font="Regular;32" foregroundColor="white" halign="center" name="key_menu" position="720,282" size="90,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_info" font="Regular;32" foregroundColor="white" halign="center" name="key_info" position="810,282" size="90,38" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 </skin>

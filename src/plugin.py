@@ -10,7 +10,7 @@ from .Version import VERSION
 from .Debug import logger
 from .__init__ import _
 from .PiconCockpit import PiconCockpit
-from .ConfigInit import ConfigInit
+from . import ConfigInit  # noqa: F401, pylint: disable=unused-import
 from .SkinUtils import loadPluginSkin
 
 
@@ -25,7 +25,6 @@ def openPiconCockpit(session, **__):
 
 def Plugins(**__):
     logger.info("  +++ Version: %s starts...", VERSION)
-    ConfigInit()
     return PluginDescriptor(
         name=_("PiconCockpit"),
         description=_("Manage Picons"),
