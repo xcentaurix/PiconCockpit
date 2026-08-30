@@ -1,0 +1,34 @@
+screen:
+  backgroundColor: "panelBG"
+  flags: "wfNoBorder"
+  name: "PiconCockpit"
+  position: "center,center"
+  resolution: "1920,1080"
+  size: "1280,720"
+  children:
+    - xmlinc:
+        file: "screenpart_TitleBar.ymlinc"
+    - widget:
+        alphatest: "blend"
+        name: "preview"
+        position: "e-20-280,65"
+        scale: "1"
+        size: "280,168"
+        zPosition: "2"
+    - widget:
+        font: "$FR_verysmall"
+        itemHeight: "30"
+        position: "20,65"
+        render: "Listbox"
+        scrollbarMode: "showOnDemand"
+        size: "e-340,570"
+        source: "list"
+        valign: "center"
+        children:
+          - convert:
+              type: "StringList"
+    - xmlinc:
+        file: "screenpart_BottomBar.ymlinc"
+    - xmlinc:
+        file: "screenpart_ButtonBar.ymlinc"
+        position: "0,$screen_height-48"
