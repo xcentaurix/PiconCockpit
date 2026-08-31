@@ -29,5 +29,6 @@ def Plugins(**__):
         name=_("PiconCockpit"),
         description=_("Manage Picons"),
         where=PluginDescriptor.WHERE_PLUGINMENU,
-        icon="PiconCockpit.png", fnc=openPiconCockpit
+        icon="PiconCockpit.png", fnc=openPiconCockpit,
+        needsRestart=True
     )
