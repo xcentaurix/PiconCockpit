@@ -1,9 +1,6 @@
 screen:
-  backgroundColor: "panelBG"
-  flags: "wfNoBorder"
   name: "PiconDownloadProgress"
   position: "center,center"
-  resolution: "1920,1080"
   size: "900,330"
   children:
     - xmlinc:
@@ -37,7 +34,4 @@ screen:
         transparent: "1"
         valign: "center"
     - xmlinc:
-        file: "screenpart_BottomBar.ymlinc"
-    - xmlinc:
-        file: "screenpart_ButtonBar.ymlinc"
-        position: "0,$screen_height-48"
+        file: "screenpart_Footer.ymlinc"

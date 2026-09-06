@@ -12,6 +12,7 @@
 		<color name="secondBG" value="#202020"/>
 		<color name="sliderBG" value="#303030"/>
 	</colors>
+	<scrollbarstyle backgroundColor="black" borderColor="white" borderWidth="1" foregroundColor="white" mode="showOnDemand" width="10"/>
 	<screen backgroundColor="panelBG" flags="wfNoBorder" name="PiconCockpit" position="center,center" resolution="1920,1080" size="1280,720">
 		<eLabel backgroundColor="barBG" position="0,0" size="e,55"/>
 		<widget font="Bold;38" position="10,0" render="Label" size="e-20,55" source="Title" transparent="1" valign="center" zPosition="1"/>
@@ -20,8 +21,8 @@
 		<widget font="Regular;20" itemHeight="30" position="20,65" render="Listbox" scrollbarMode="showOnDemand" size="e-340,570" source="list" valign="center">
 			<convert type="StringList"/>
 		</widget>
-		<eLabel backgroundColor="separator" position="0,e-56" size="e,2"/>
-		<eLabel backgroundColor="barBG" position="0,e-55" size="e,55"/>
+		<eLabel backgroundColor="separator" position="0,664" size="1280,2"/>
+		<eLabel backgroundColor="barBG" position="0,665" size="1280,55"/>
 		<widget conditional="key_red" font="Regular;32" foregroundColor="keyRed" halign="center" name="key_red" position="0,672" size="275,38" transparent="1" valign="center" zPosition="2"/>
 		<widget conditional="key_green" font="Regular;32" foregroundColor="keyGreen" halign="center" name="key_green" position="275,672" size="275,38" transparent="1" valign="center" zPosition="2"/>
 		<widget conditional="key_yellow" font="Regular;32" foregroundColor="keyYellow" halign="center" name="key_yellow" position="550,672" size="275,38" transparent="1" valign="center" zPosition="2"/>
@@ -37,8 +38,8 @@
 		<widget name="slider1" position="10,120" size="e-20,20"/>
 		<widget font="Regular;32" halign="left" name="name" position="10,155" size="e-20,40" transparent="1" valign="center"/>
 		<widget font="Regular;32" halign="left" name="status" position="10,210" size="e-20,40" transparent="1" valign="center"/>
-		<eLabel backgroundColor="separator" position="0,e-56" size="e,2"/>
-		<eLabel backgroundColor="barBG" position="0,e-55" size="e,55"/>
+		<eLabel backgroundColor="separator" position="0,274" size="900,2"/>
+		<eLabel backgroundColor="barBG" position="0,275" size="900,55"/>
 		<widget conditional="key_red" font="Regular;32" foregroundColor="keyRed" halign="center" name="key_red" position="0,282" size="180,38" transparent="1" valign="center" zPosition="2"/>
 		<widget conditional="key_green" font="Regular;32" foregroundColor="keyGreen" halign="center" name="key_green" position="180,282" size="180,38" transparent="1" valign="center" zPosition="2"/>
 		<widget conditional="key_yellow" font="Regular;32" foregroundColor="keyYellow" halign="center" name="key_yellow" position="360,282" size="180,38" transparent="1" valign="center" zPosition="2"/>

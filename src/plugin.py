@@ -2,11 +2,7 @@
 # License: GNU General Public License v3.0
 
 from Plugins.Plugin import PluginDescriptor
-try:
-    from skin import addOnLoadCallback  # OpenViX
-except ImportError:
-    from skin import addCallback as addOnLoadCallback  # openATV - same mechanism, different name
-from .Version import VERSION
+from .Version import PLUGIN, VERSION
 from .Debug import logger
 from .__init__ import _
 from .PiconCockpit import PiconCockpit
@@ -14,8 +10,7 @@ from . import ConfigInit  # noqa: F401, pylint: disable=unused-import
 from .SkinUtils import loadPluginSkin
 
 
-addOnLoadCallback(loadPluginSkin)
-loadPluginSkin()  # Load on initial boot; addOnLoadCallback handles skin reloads
+loadPluginSkin(PLUGIN)
 
 
 def openPiconCockpit(session, **__):
@@ -25,10 +20,23 @@ def openPiconCockpit(session, **__):
 
 def Plugins(**__):
     logger.info("  +++ Version: %s starts...", VERSION)
-    return PluginDescriptor(
-        name=_("PiconCockpit"),
-        description=_("Manage Picons"),
-        where=PluginDescriptor.WHERE_PLUGINMENU,
-        icon="PiconCockpit.png", fnc=openPiconCockpit,
-        needsRestart=True
-    )
+    descriptors = [
+        PluginDescriptor(
+            name=_("PiconCockpit"),
+            description=_("Manage Picons"),
+            where=PluginDescriptor.WHERE_PLUGINMENU,
+            icon="PiconCockpit.png", fnc=openPiconCockpit,
+            needsRestart=True
+        ),
+    ]
+    try:
+        descriptors += [
+            PluginDescriptor(
+                where=PluginDescriptor.WHERE_SKINCHANGE,
+                fnc=loadPluginSkin
+            )
+        ]
+    except Exception:
+        pass
+
+    return descriptors
